@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $x = true and false;
-var_dump($x);
+var_dump($x);    
 });
 
 Route::get('/dashboard', function () {
